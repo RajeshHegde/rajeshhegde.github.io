@@ -28,13 +28,13 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "https://rajeshpedia.wordpress.com/feed",
+        "https://medium.com/feed/@rajeshhegde",
         
         {
         // how many entries do you want?
         // default: 4
         // valid values: any integer
-        limit: 3,
+        limit: 5,
         
         // the effect, which is used to let the entries appear
         // default: 'show'
